@@ -1,3 +1,4 @@
+Yanis Mazouz Groupe 01 .
 R1: Quelles sont les structures de données à utiliser ?
 Matrices B, C, et A : Structures pour stocker les valeurs des matrices.
 Tampon T : Tableau de structures Element pour stocker les résultats intermédiaires.
