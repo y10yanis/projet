@@ -41,7 +41,7 @@ void *producer(void *arg) {
     for (int i = 0; i < n1; i++) {
         for (int j = 0; j < m2; j++) {
             int result = 0;
-            for (int k = 0; k < m1; k++) {  // Utiliser m1 ici au lieu de m2
+            for (int k = 0; k < m1; k++) {  
                 result += B[i][k] * C[k][j];
             }
 
@@ -99,7 +99,7 @@ int main() {
         return 1;
     } else {
         remplir(B, n1, m1);
-        remplir(C, m1, m2);  // Utiliser m1 ici au lieu de n2
+        remplir(C, m1, m2);  
         printf("Matrice B : \n");
 
         for (int i = 0; i < n1; i++) {
@@ -111,7 +111,7 @@ int main() {
 
         printf("Matrice C : \n");
 
-        for (int i = 0; i < m1; i++) {  // Utiliser m1 ici au lieu de n2
+        for (int i = 0; i < m1; i++) {  
             for (int j = 0; j < m2; j++) {
                 printf("%d\t", C[i][j]);
             }
